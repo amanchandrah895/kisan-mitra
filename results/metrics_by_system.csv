@@ -1,0 +1,7 @@
+system,n_cases,task_success,qa_fact_recall,qa_all_facts_acc,qa_groundedness,qa_false_abstain_rate,tool_quantity_acc,ood_abstain_recall,route_acc,retrieval_hit@3,number_preservation,latency_p50_s,latency_mean_s,errors,abstain_precision,abstain_f1,success_en,success_hi,success_kn,success_ta
+agriparam_closedbook,40,0.2,0.3778,0.2667,0.3667,0.0,0.0,0.0,,1.0,0.9524,2.62,2.84,0,0.0,0.0,0.25,0.25,0.0,0.25
+agriparam_rag,40,0.7,0.9167,0.9,0.6333,0.0,0.2,0.0,,1.0,0.96,7.14,7.4,0,0.0,0.0,0.6667,0.8333,0.625,0.625
+extractive_rag,40,0.625,0.8667,0.8333,1.0,0.0,0.0,0.0,,1.0,0.9366,0.9,0.93,0,0.0,0.0,0.4167,0.8333,0.625,0.625
+kisan_mitra_full,40,0.875,0.9167,0.9,0.6609,0.0333,0.6,1.0,0.925,1.0,0.9796,5.62,5.1,0,0.7143,0.8333,0.9167,1.0,0.75,0.75
+kisan_mitra_full_voice,28,0.7857,0.8561,0.8182,0.6746,0.0455,0.3333,1.0,0.8929,1.0,1.0,5.68,5.07,0,0.5,0.6667,,0.8333,0.75,0.75
+param1_rag,40,0.65,0.7833,0.7333,0.8278,0.0333,0.0,0.8,,1.0,0.9747,7.19,9.0,0,0.8,0.8,0.6667,0.6667,0.625,0.625

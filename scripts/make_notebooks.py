@@ -53,7 +53,7 @@ if PROJECT_DIR == DRIVE_DIR:
 elif os.path.exists('/content/drive/MyDrive'):
     RESULTS_DIR = '/content/drive/MyDrive/kisan-mitra-results/results'
 else:
-    RESULTS_DIR = RESULTS_DIR
+    RESULTS_DIR = f'{PROJECT_DIR}/results'
 os.makedirs(RESULTS_DIR, exist_ok=True)
 print('Project folder:', PROJECT_DIR, '| results ->', RESULTS_DIR)
 '''

@@ -17,8 +17,10 @@ GROUNDING_CAVEAT = ("Note: part of this answer could not be verified against my 
                     "with your nearest KVK or the Kisan Call Centre (1800-180-1551).")
 
 _ABSTAIN_RX = re.compile(r"(i (do not|don't|cannot|can't) (know|answer|find)|not (mentioned|provided|available|given)"
-                         r" in the (context|information)|no information|unable to (answer|find)|"
-                         r"i could not find|i can only (advise|answer))", re.I)
+                         r" in the (context|information)|no (direct |specific )?information|unable to (answer|find)|"
+                         r"i could not find|i can only (advise|answer)|"
+                         r"i (do not|don't) have (the |any |enough )?(specific |real-time |live )?"
+                         r"(information|data|details|number))", re.I)
 
 
 @dataclass(frozen=True)

@@ -94,6 +94,7 @@ Open `notebooks/02_demo_app.ipynb` in Colab → *Run all* → open the `gradio.l
 ```bash
 pip install -r requirements-dev.txt
 pytest -q                                              # 8 tests
+python scripts/rescore.py && python scripts/make_figures.py   # re-score saved predictions, rebuild figures (CPU)
 PYTHONPATH=src python -m kisan_mitra.experiment --dry-run --results-dir /tmp/dry   # whole pipeline with stand-ins
 PYTHONPATH=src python -m kisan_mitra.app --dry-run     # UI with stand-in models (pip install gradio)
 ```
@@ -129,7 +130,24 @@ latency. A human-evaluation sheet (`results/human_eval_sheet.csv`) is produced f
 
 ## Results
 
-*Filled in from `results/` after running notebook 01 — see `reports/REPORT.md` for the full analysis and failure cases.*
+Evaluation run: Colab Tesla T4, 25.4 min, 40 test cases. Full analysis and failure cases: **[`reports/REPORT.md`](reports/REPORT.md)**.
+
+![task success](docs/figures/task_success.png)
+
+| System | Task success | QA fact accuracy | Fertilizer tool | Out-of-scope refused | Groundedness | p50 latency |
+|---|---:|---:|---:|---:|---:|---:|
+| AgriParam, no retrieval | 20.0 % | 26.7 % | 0 % | 0 % | 36.7 % | 2.6 s |
+| Extractive RAG (no LLM) | 62.5 % | 83.3 % | 0 % | 0 % | 100 % | 0.9 s |
+| Param-1 + RAG | 65.0 % | 73.3 % | 0 % | 80 % | 82.8 % | 7.2 s |
+| AgriParam + RAG | 70.0 % | 90.0 % | 20 % | 0 % | 63.3 % | 7.1 s |
+| **Kisan Mitra (full agent)** | **87.5 %** | **90.0 %** | **60 %** | **100 %** | 66.1 % | 5.6 s |
+| Kisan Mitra, voice input (28 Indic cases) | 78.6 % | 81.8 % | 33.3 % | 100 % | 67.5 % | 5.7 s |
+
+- **Retrieval** lifts AgriParam's fact accuracy from 26.7 % to 90.0 %; hybrid + re-ranking finds a gold document in the top 3 for every answerable question.
+- **The agent layer** adds what RAG cannot: correct fertilizer arithmetic (60 % vs 20 %) and refusing out-of-scope questions (5/5 vs 0/5 — plain AgriParam invents onion prices and cricket results).
+- **Translation of farm terms is the main bottleneck**: IndicTrans2 rendered ragi as "millet" and early blight (Tamil) as "premature ejaculation"; such errors caused 4 of the agent's 5 failures.
+- **Speech**: IndicConformer CTC — WER 14.5 %, CER 4.9 % (Kannada WER is inflated by word-boundary splits); voice input costs 7 points of task success on the Indic subset (85.7 % → 78.6 %).
+- IndicTrans2 question chrF++: Hindi 61.0, Kannada 61.8, Tamil 57.1; 98 % of numbers survive back-translation.
 
 ## Limitations and responsible use
 - Advisory only; the knowledge base is small (17 documents) and partly region-specific (TNAU = Tamil Nadu, wheat = Central India).

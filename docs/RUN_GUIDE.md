@@ -22,7 +22,7 @@ If pip asks to restart: *Runtime → Restart session*, then run cell 2, then con
 
 ## Bring the results back
 Put `kisan_mitra_results.zip` into the `LLM Lab` folder on your laptop (or unzip it into `kisan-mitra/results/`).
-Claude then writes the report, failure analysis, figures and final README numbers from the real results.
+Then run `python scripts/rescore.py && python scripts/make_figures.py` to refresh the scores and figures used in `reports/REPORT.md`.
 
 ## Demo (notebook 02) — for screenshots / video
 Open `notebooks/02_demo_app.ipynb` the same way → T4 GPU → *Run all* → click the `https://….gradio.live` link.

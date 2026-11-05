@@ -1,0 +1,29 @@
+id,lang,source,reference_en,mt_en,chrf++
+hi01,hi,धान की नर्सरी में बीज उपचार के लिए कार्बेन्डाजिम की कितनी मात्रा प्रयोग करें?,How much carbendazim should be used for seed treatment in a rice nursery?,How much of carbendazim should be used for seed treatment in a paddy nursery?,83.6
+hi02,hi,पीएम किसान योजना में किसान परिवार को साल में कितने रुपये मिलते हैं?,How much money does a farmer family get per year under PM-KISAN?,"In the PM Kisan Yojana, how much money does the farmer's family get in a year?",46.82
+hi03,hi,"समय पर बोए गए सिंचित गेहूं के लिए नाइट्रोजन, फास्फोरस और पोटाश की कितनी मात्रा चाहिए?",What NPK dose is recommended for timely sown irrigated wheat?,"What is the amount of nitrogen, phosphorus, and potash required for timely sown irrigated wheat?",56.55
+hi04,hi,मक्का में फॉल आर्मीवर्म के नियंत्रण के लिए कौन से परजीवी कीट छोड़ने चाहिए?,Which parasitoids should be released to control fall armyworm in maize?,Which parasitic pests should be released for the control of fall armyworms in maize?,67.71
+hi05,hi,कपास में गुलाबी सुंडी के लिए नीम का छिड़काव कब करना चाहिए?,When should neem be sprayed against pink bollworm in cotton?,When to spray neem for pink sundi in cotton?,34.8
+hi06,hi,टमाटर में पत्ती मोड़क रोग किस कीट से फैलता है?,Which insect spreads tomato leaf curl disease?,Which insect is responsible for the spread of leaf-worm disease in tomatoes?,45.94
+hi07,hi,मृदा स्वास्थ्य कार्ड में मिट्टी के कितने मापदंड जांचे जाते हैं?,How many soil parameters are tested for the Soil Health Card?,How many parameters of the soil are checked in the soil health card?,41.35
+hi08,hi,फसल बीमा योजना में फसल नुकसान की सूचना कितने घंटे के अंदर देनी होती है?,Within how many hours must crop loss be reported under the crop insurance scheme?,Within how many hours is crop loss reported in a crop insurance scheme?,67.65
+hi09,hi,किसान क्रेडिट कार्ड का कर्ज समय पर चुकाने पर ब्याज दर कितनी लगती है?,What is the effective interest rate on a Kisan Credit Card loan if it is repaid on time?,What is the interest rate charged on timely repayment of Kisan Credit Card loan?,57.31
+hi10,hi,ड्रिप सिंचाई लगाने पर छोटे और सीमांत किसानों को कितनी सब्सिडी मिलती है?,How much subsidy do small and marginal farmers get for installing drip irrigation?,How much subsidy does small and marginal farmers get on drip irrigation?,74.73
+kn01,kn,ನೀರಾವರಿ ರಾಗಿ ಬೆಳೆಗೆ ಶಿಫಾರಸು ಮಾಡಿದ ರಸಗೊಬ್ಬರ ಪ್ರಮಾಣ ಎಷ್ಟು?,What is the recommended fertilizer dose for irrigated ragi?,What is the recommended amount of fertilizer for irrigated millet crop?,67.39
+kn02,kn,ರಾಗಿ ಸಸಿಗಳನ್ನು ಎಷ್ಟು ದಿನಗಳ ವಯಸ್ಸಿನಲ್ಲಿ ನಾಟಿ ಮಾಡಬೇಕು?,At what age should ragi seedlings be transplanted?,At what age should the millet plants be transplanted?,66.37
+kn03,kn,ಹತ್ತಿಯಲ್ಲಿ ಗುಲಾಬಿ ಕಾಯಿಕೊರಕದ ನಿಗಾಕ್ಕೆ ಹೆಕ್ಟೇರಿಗೆ ಎಷ್ಟು ಫೆರೋಮೋನ್ ಬಲೆಗಳನ್ನು ಹಾಕಬೇಕು?,How many pheromone traps per hectare should be installed to monitor pink bollworm in cotton?,How many pheromone traps per hectare should be laid to monitor rose husk in cotton?,71.13
+kn04,kn,ಟೊಮೇಟೊ ಎಲೆ ಮುರುಟು ರೋಗ ನಿಯಂತ್ರಣಕ್ಕೆ ಎಕರೆಗೆ ಎಷ್ಟು ಹಳದಿ ಅಂಟು ಬಲೆಗಳು ಬೇಕು?,How many yellow sticky traps per acre are needed to manage tomato leaf curl?,How many traps of yellow glue per acre are required for the control of tomato leaf rot disease?,45.94
+kn05,kn,ಪಿಎಂ ಕಿಸಾನ್ ಯೋಜನೆಗೆ ಯಾರು ಅರ್ಹರಲ್ಲ?,Who is not eligible for PM-KISAN?,Who is not eligible for the PM Kisan scheme?,65.15
+kn06,kn,ಎರೆಹುಳು ಗೊಬ್ಬರವನ್ನು ಹೊಲದ ಬೆಳೆಗಳಿಗೆ ಹೆಕ್ಟೇರಿಗೆ ಎಷ್ಟು ಹಾಕಬೇಕು?,How much vermicompost should be applied per hectare to field crops?,How much earthworm manure should be applied to field crops per hectare?,65.74
+ta01,ta,ஒரு ஹெக்டேர் நடவு நெல்லுக்கு எவ்வளவு நாற்றங்கால் பரப்பு தேவை?,How much nursery area is needed for one hectare of transplanted rice?,How much nursery area is required for one hectare of sown paddy?,63.27
+ta02,ta,நெல் நடவு செய்த பிறகு வயலில் எவ்வளவு ஆழம் தண்ணீர் வைக்க வேண்டும்?,What water depth should be maintained in the rice field after transplanting?,How deep should the field be watered after planting the paddy?,33.82
+ta03,ta,நெல்லில் மாற்று நனைத்தல் உலர்த்தல் முறைக்கு பயன்படும் நீர் குழாயின் அளவு என்ன?,What are the dimensions of the field water tube used for alternate wetting and drying in rice?,What is the size of the water pipe used for alternate soaking and drying method in paddy?,47.04
+ta04,ta,"தக்காளியில் முன்பருவ கருகல் நோய்க்கு காரணம் என்ன, அதன் அறிகுறிகள் என்ன?",What causes early blight in tomato and what are its symptoms?,What causes premature ejaculation in tomatoes and what are its symptoms?,65.81
+ta05,ta,கிசான் அழைப்பு மையத்தின் இலவச தொலைபேசி எண் என்ன?,What is the toll-free number of the Kisan Call Centre?,What is the free phone number of Kisan Call Centre?,68.32
+ta06,ta,ரபி பருவ உணவுப் பயிர்களுக்கு பயிர் காப்பீட்டில் விவசாயி செலுத்த வேண்டிய பிரீமியம் எவ்வளவு?,What premium does a farmer pay for rabi food crops under crop insurance?,What is the premium to be paid by the farmer on crop insurance for Rabi food crops?,50.42
+tool02,hi,"5 एकड़ धान के लिए कितना यूरिया, एसएसपी और पोटाश चाहिए?","How much urea, SSP and potash are needed for 5 acres of rice?","How much urea, SSP and potash is required for 5 acres of paddy?",71.11
+tool03,kn,3 ಎಕರೆ ರಾಗಿ ಬೆಳೆಗೆ ಎಷ್ಟು ಯೂರಿಯಾ ಬೇಕು?,How much urea is needed for 3 acres of ragi?,How much urea is required for 3 acres of millet crop?,65.07
+tool04,ta,2 ஹெக்டேர் வீரிய ஒட்டு நெல்லுக்கு எவ்வளவு யூரியா தேவை?,How much urea is needed for 2 hectares of hybrid rice?,How much urea is required for 2 hectares of millets?,61.89
+ood02,hi,क्रिकेट विश्व कप 2011 किसने जीता था?,Who won the 2011 Cricket World Cup?,Who won the Cricket World Cup 2011?,77.92
+ood03,kn,ತೆಂಗಿನ ಮರದಲ್ಲಿ ಕಪ್ಪು ತಲೆ ಹುಳುವಿನ ನಿರ್ವಹಣೆ ಹೇಗೆ?,How to manage black-headed caterpillar in coconut trees?,How to manage a blackhead in a coconut tree?,48.83
+ood04,ta,"என் மாட்டுக்கு காய்ச்சல் இருக்கிறது, என்ன மருந்து கொடுக்கலாம்?","My cow has a fever, what medicine can I give?","My cow has a fever, what medication can I give?",84.1
