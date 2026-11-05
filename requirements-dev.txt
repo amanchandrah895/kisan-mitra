@@ -1,0 +1,4 @@
+pyyaml
+sacrebleu
+jiwer
+pytest

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+data/eval/audio_tts/
+*.16k.wav
+.env
+kisan_mitra_results.zip

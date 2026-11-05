@@ -1,0 +1,13 @@
+# Core (tested target: Google Colab, Python 3.10-3.12, T4 GPU, preinstalled torch/torchaudio)
+transformers>=4.51,<4.57        # IndicTrans2 custom code needs 4.x (v5 breaks it); toolkit asks >=4.51
+accelerate>=0.26
+sentence-transformers>=3.0
+huggingface_hub>=0.24
+indictranstoolkit               # AI4Bharat IndicProcessor (pre/post-processing for IndicTrans2)
+sacrebleu>=2.4                  # chrF++
+jiwer>=3.0                      # WER / CER
+gtts>=2.5                       # synthetic test audio + spoken answers
+gradio>=4.44
+soundfile
+pyyaml
+pandas
